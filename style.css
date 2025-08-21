@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background: #f8f9fa;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.logo p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: block;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    margin: 80px auto;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    color: #5d4e75;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+
+.hero-button a {
+    background: #5d4e75;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.services-list li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.service-title {
+    font-weight: bold;
+    color: #5d4e75;
+}
+
+.pet-images {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pet-images img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Purple */
+.footer-purple {
+    background: #5d4e75;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-purple h3 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.footer-purple span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons span {
+    margin: 0 10px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+/* Brands Section */
+.brands {
+    padding: 60px 0;
+    background: white;
+    text-align: center;
+}
+
+.brands h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.brands-grid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.brand-row {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.brand-row span {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color: #666;
+    font-weight: bold;
+    min-width: 120px;
+}
+
+/* Location Section */
+.location {
+    padding: 60px 0;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.location h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.location p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    border: none;
+}
+
+/* Final Footer */
+.final-footer {
+    background: #5d4e75;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.final-footer p {
+    margin: 0;
+    font-size: 14px;
+}
